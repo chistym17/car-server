@@ -17,7 +17,7 @@ app.use(express.json());
 // CORS configuration
 app.use(
   cors({
-    origin: ["http://localhost:5173", "http://localhost:5174"], // Allow these origins
+    origin: ["http://localhost:5173", "http://localhost:5174","https://car-store-woad.vercel.app"], // Allow these origins
     credentials: true, // Allow credentials such as cookies
   })
 );
